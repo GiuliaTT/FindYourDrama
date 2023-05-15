@@ -120,7 +120,7 @@ nav{
     animation: glitch 1500ms infinite;
 }
 .menuindex{
-    font-size: 27px;
+    font-size: 100%;
 }
 .spiegazione{
     position: absolute;
