@@ -438,7 +438,7 @@ nav{
 footer{
     position: absolute;
     background-color:rgb(0, 0, 0);
-    bottom: -100%;
+    bottom: -120%;
     width: 100%;
     left: 0%;
     text-align: center;
@@ -474,7 +474,7 @@ footer{
 }
 .footer3{
     position: absolute;
-    bottom: -620%;
+    bottom: -630%;
 }
 .footer4{
     position: absolute;
