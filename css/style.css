@@ -151,6 +151,7 @@ nav{
 .testospieg{
     margin-bottom: -9px;
     padding-top: 10px;
+    font-family:  'Tomorrow', sans-serif;
 }
 .color,.nocolor:hover{
     color: rgb(255, 0, 187);
