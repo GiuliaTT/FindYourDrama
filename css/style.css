@@ -270,11 +270,11 @@ nav{
     }
     .blogbox{
         width: 350px;
+        height: 375px;
         background-color: rgba(239, 239, 239, 0.558);
         border: 1px solid rgb(226, 225, 225);
         margin: 20px;
         box-shadow: 10px 10px 5px #867d824c;
-        
     }
     .blogimg{
         width: 100%;
@@ -290,6 +290,10 @@ nav{
     .blogtext{
         display: flex;
         flex-direction: column;
+    }
+        .eminemtext{
+        margin: 20px 0 7px 0;
+        font-size: 2.5rem;
     }
     .blogtext span{
         color: rgb(124, 121, 123);
