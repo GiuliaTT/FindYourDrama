@@ -272,6 +272,7 @@ nav{
     font-family: 'VT323', monospace;
     position: absolute;
     z-index: -2;
+    margin: 0 100px;
     }
     .blogheading{
         display: flex;
