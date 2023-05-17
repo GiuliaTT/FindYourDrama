@@ -2,7 +2,7 @@ html{
     background-color: rgb(255, 255, 255);
     min-width: 100%;
     }
-h1{
+.titoloprinciaple{
     color: rgb(255, 0, 187);
     font-family: 'Silkscreen', cursive;
     text-align: center;
@@ -20,6 +20,10 @@ h1{
     -0.01em -0.02em 0 rgba(0, 255, 0, 0.75),
     0.013em 0.03em 0 rgba(0, 0, 255, 0.75);
     animation: glitch 1500ms infinite;
+}
+.centrotitolo{
+    display: flex;
+    justify-content: center;
 }
 h1 span{
     position: absolute;
@@ -122,6 +126,29 @@ nav{
 .menuindex{
     font-size: 100%;
 }
+.quiz{
+    width: fit-content;
+    position: absolute;
+    bottom: 10px;
+    cursor: pointer;
+    font-size: 40px;
+    background-color: #B30083;
+    font-family: 'Silkscreen', cursive;
+    color: #fff;
+    padding: 3px 10px;
+    box-shadow: 
+    0.03em 0 0 rgba(255, 255, 255, 0.75),
+    -0.01em -0.02em 0 rgba(0, 255, 0, 0.75),
+    0.013em 0.03em 0 rgba(0, 0, 255, 0.75);
+    animation: glitch 1500ms infinite;
+    border-radius: 5px;
+}
+.bottone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
 .spiegazione{
     position: absolute;
     top: 120%;
@@ -143,7 +170,7 @@ nav{
     animation: glitch 1500ms infinite;
 }
 .hashtag{
-    color: rgb(255, 0, 187);
+    color: #B30083;
     font-size: 120px;
     float: left;
     margin: left;
@@ -151,7 +178,6 @@ nav{
 .testospieg{
     margin-bottom: -9px;
     padding-top: 10px;
-    font-family:  'Tomorrow', sans-serif;
 }
 .color,.nocolor:hover{
     color: rgb(255, 0, 187);
@@ -174,6 +200,7 @@ nav{
     z-index: 3;
     position: fixed;
     top: -3%;
+    left: 15px;
     text-shadow: 
     0.03em 0 0 rgba(255, 255, 255, 0.75),
     -0.01em -0.02em 0 rgba(0, 255, 0, 0.75),
@@ -240,7 +267,7 @@ nav{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 10% 15%;
+    padding: 120px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.05);
     font-family: 'VT323', monospace;
     position: absolute;
@@ -276,6 +303,8 @@ nav{
         border: 1px solid rgb(226, 225, 225);
         margin: 20px;
         box-shadow: 10px 10px 5px #867d824c;
+        min-height: auto;
+        
     }
     .blogimg{
         width: 100%;
@@ -292,10 +321,6 @@ nav{
         display: flex;
         flex-direction: column;
     }
-        .eminemtext{
-        margin: 20px 0 7px 0;
-        font-size: 2.5rem;
-    }
     .blogtext span{
         color: rgb(124, 121, 123);
         font-size: 0.9rem;
@@ -304,6 +329,10 @@ nav{
         text-decoration: none;
         font-size: 2rem;
         text-align: center;
+    }
+    .eminemtext{
+        margin: 20px 0 7px 0;
+        font-size: 2.5rem;
     }
     .blogtext .blogtitle{
         font-weight: 400;
@@ -436,8 +465,7 @@ nav{
         cursor: pointer;
         transition: .2s;
     }
-    
-    .btn:hover{
+        .btn:hover{
         background-color: #96006e;
     }
 footer{
@@ -450,6 +478,10 @@ footer{
     font-family:  'Tomorrow', sans-serif;
     justify-content: center;
     color: rgb(255, 0, 187);
+}
+.footer6{
+    position: absolute;
+    bottom: -290%;
 }
 .icone{
     display: inline-block;
@@ -479,7 +511,7 @@ footer{
 }
 .footer3{
     position: absolute;
-    bottom: -630%;
+    bottom: -620%;
 }
 .footer4{
     position: absolute;
@@ -488,4 +520,98 @@ footer{
 .footer5{
     position: absolute;
     bottom: -800%;
+}
+
+.bodyquiz{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    font-family: 'Tomorrow', sans-serif;
+}
+
+.sectionquiz {
+    width: 600px;
+    height: fit-content;
+    padding-top: 100px;
+}
+
+.h1quiz {
+    font-size: 35px;
+    text-align: left;
+    font-family: 'Silkscreen', cursive;
+}
+
+h4 {
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Silkscreen', cursive;
+    color: rgb(255, 0, 187);
+    text-shadow: 
+    0.03em 0 0 rgba(255, 255, 255, 0.75),
+    -0.01em -0.02em 0 rgba(0, 255, 0, 0.75),
+    0.013em 0.03em 0 rgba(0, 0, 255, 0.75);
+    animation: glitch 1500ms infinite;
+}
+.titoloquiz{
+    line-height: 5px;
+    padding-bottom: 25px;
+}
+.title-block {
+    width: 600px;
+    height: fit-content;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: rgb(255,255,255)
+}
+.answer-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 16px 0 23px 0;
+    font-family: 'Tomorrow', sans-serif;
+    text-transform: uppercase;
+    text-shadow: 
+    0.05em 0 0 rgba(255, 255, 255, 0.75),
+    -0.03em -0.04em 0 rgba(0, 255, 0, 0.75),
+    0.05em 0.02em 0 rgba(0, 0, 255, 0.75);
+    animation: glitch 1500ms infinite;
+    color: #B30083;
+}
+.answer-block {
+    width: 286px;
+    height: 106px;
+    border-radius: 5px;
+    box-shadow: rgba(0,0,0, 0.07) 0 0 0 1px;
+    text-align: center;
+    margin-bottom: 15px;
+    overflow: hidden;
+    text-transform: uppercase;
+    text-shadow: 
+    0.05em 0 0 rgba(255, 255, 255, 0.75),
+    -0.03em -0.04em 0 rgba(0, 255, 0, 0.75),
+    0.05em 0.02em 0 rgba(0, 0, 255, 0.75);
+    animation: glitch 1500ms infinite;
+}
+.answer-block:hover{
+    cursor: pointer;
+    border: solid 3px rgb(255, 0, 187);
+}
+.result-block {
+    width: 600px;
+    height: fit-content;
+    background-color: #B30083;
+    border-radius: 5px;
+    border: solid #B30083; 20px;
+    text-align: center;
+    font-family: 'Silkscreen', cursive;
+    font-size: 30px;
+    margin-top: 95px;
+    text-shadow: 
+    0.05em 0 0 rgba(255, 255, 255, 0.75),
+    -0.03em -0.04em 0 rgba(0, 255, 0, 0.75),
+    0.05em 0.02em 0 rgba(0, 0, 255, 0.75);
+    animation: glitch 1500ms infinite;
 }
