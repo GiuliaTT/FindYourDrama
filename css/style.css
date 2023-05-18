@@ -229,6 +229,8 @@ nav{
 .h3artic{
     color: #B30083;
     font-family: 'VT323', monospace;
+    padding-top: 4px;
+    font-size: 23px;
 }
 .sottotitolo{
     font-size: 25px;
