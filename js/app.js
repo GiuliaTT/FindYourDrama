@@ -61,37 +61,37 @@ const questions = [
 const answers = [
     {
         combination: ["Arrabbiat*", "Diretta", "Ad una festa"],
-        text: " The Real Slim Shady-Eminem",
+        text: "La tua canzone è: The Real Slim Shady-Eminem",
         info: "Vai nella sezione drama per scoprire la storia di questa canzone"
         
     },
     {
         combination: ["Malinconic*", "Comprensiva", "In viaggio"],
-        text: "Drivers's License-Olivia Rodrigo"
+        text: "La tua canzone è: Drivers's License-Olivia Rodrigo"
     },
     {
         combination: ["Malinconic*", "Dolce", "A casa"],
-        text: "Love Will Remember-Selena Gomez"
+        text: "La tua canzone è: Love Will Remember-Selena Gomez"
     },
     {
         combination: ["Caric*", "Sarcastica", "Ad una festa"],
-        text: "Obsessed-Mariah Carey"
+        text: "La tua canzone è: Obsessed-Mariah Carey"
     },
     {
         combination: ["Triste", "Sarcastica", "A casa"],
-        text: "Happier-Olivia Rodrigo"
+        text: "La tua canzone è: Happier-Olivia Rodrigo"
     },
     {
         combination: ["Caric*", "Diretta", "In viaggio"],
-        text: "All That Matters-Justin Bieber"
+        text: "La tua canzone è: All That Matters-Justin Bieber"
     },
     {
         combination: ["Arrabbiata", "Comprensiva", "In spiaggia"],
-        text: "Same old Love-Selena Gomez"
+        text: "La tua canzone è: Same old Love-Selena Gomez"
     },
     {
         combination: ["Trsite", "Dolce", "In spiaggia"],
-        text: "Crisis-Joshua Bassett"
+        text: "La tua canzone è: Crisis-Joshua Bassett"
     }
 ]
 const unansweredQuestions = []
