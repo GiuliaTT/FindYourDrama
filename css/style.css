@@ -618,3 +618,53 @@ h4 {
     0.05em 0.02em 0 rgba(0, 0, 255, 0.75);
     animation: glitch 1500ms infinite;
 }
+.documentazione{
+    text-align: center;
+    margin-top: 120px;
+    width: 70%;
+    padding: 0 15%;
+    font-family: 'Tomorrow', sans-serif;
+}
+.h2doc{
+    color: black;
+}
+.titdoc{
+    color: #B30083;
+    
+}
+.sottodoc{
+    font-size: 15px;
+    margin-bottom: 0;
+}
+.imgdoc{
+    max-width: 70%;
+}
+.wireframe{
+    max-width: 250px;
+}
+.wireframeblock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 600;
+}
+.divwireframe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    padding: 0 25px;
+}
+.fucsia{
+    color: rgb(255, 0, 187);
+}
+.viola{
+    color: #B30083;
+}
+.strumenti{
+    line-height: 30px;
+}
+.ga{
+    height: 400px;
+}
