@@ -92,6 +92,22 @@ const answers = [
     {
         combination: ["Trsite", "Dolce", "In spiaggia"],
         text: "La tua canzone è: Crisis-Joshua Bassett"
+    },
+     {
+        combination: ["Caric*", "Comprensiva", "In spiaggia"],
+        text: "La tua canzone è: Sorry-Justin Bieber "
+    },
+    {
+        combination: ["Arrabbiat*", "Sarcastica", "Ad una festa"],
+        text: "La tua canzone è: Clown-Mariah Carey"
+    },
+    {
+        combination: ["Malinconica", "Dolce", "A casa"],
+        text: "La tua canzone è: because i liked a boy-Sabrina Carpenter"
+    },
+    {
+        combination: ["Trsite", "Diretta", "In viaggio"],
+        text: "La tua canzone è: Lose You To Love Me-Selena Gomez"
     }
 ]
 const unansweredQuestions = []
